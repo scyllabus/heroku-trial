@@ -24,9 +24,9 @@ return [
     | services your application utilizes. Set this in your ".env" file.
     |
     */
-    
+
     'env' => env('APP_ENV', 'local'),
-    
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
@@ -105,7 +105,7 @@ return [
 
     'key' => env('APP_KEY'),
 
-    'cipher' => 'AES-256-CBC',
+    //'cipher' => 'AES-256-CBC',
 
     /*
     |--------------------------------------------------------------------------
